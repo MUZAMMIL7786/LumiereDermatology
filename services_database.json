@@ -1,0 +1,929 @@
+{
+  "clinic": {
+    "name": "Lumière Dermatology & Hair Clinic",
+    "tagline": "Advanced Hair & Skin Care Excellence",
+    "established": 2012,
+    "location": "Hyderabad, Telangana, India",
+    "phone": "+91-40-XXXX-XXXX",
+    "email": "info@lumieredermatology.com",
+    "hours": {
+      "weekday": "10 AM - 7 PM",
+      "saturday": "10 AM - 5 PM",
+      "sunday": "Closed"
+    },
+    "specializations": [
+      "Hair Restoration",
+      "Hair Transplantation",
+      "Scalp Disorders",
+      "Laser Dermatology",
+      "Cosmetic Dermatology",
+      "Medical Dermatology",
+      "Mohs Surgery",
+      "Skin Cancer Treatment"
+    ]
+  },
+
+  "hair_services": [
+    {
+      "id": "fue",
+      "name": "FUE Hair Transplant",
+      "category": "Surgical",
+      "description": "Follicular Unit Extraction - gold standard for hair restoration using robotic assistance",
+      "technology": "ARTAS Robotic System",
+      "procedure_duration": "6-8 hours",
+      "grafts_per_session": "1000-4000",
+      "recovery_time": "7-10 days visible healing, 12-18 months full results",
+      "scarring": "Minimal - small circular scars, virtually undetectable",
+      "permanent": true,
+      "ideal_candidates": [
+        "Male pattern baldness (Norwood Scale 2-6)",
+        "Female pattern hair loss",
+        "Alopecia from trauma",
+        "Beard and eyebrow restoration",
+        "Receding hairlines"
+      ],
+      "advantages": [
+        "Permanent results - transplanted hair grows for life",
+        "Natural appearance with undetectable hairline",
+        "Minimal scarring",
+        "7-10 days return to work",
+        "Multiple sessions possible without damage"
+      ],
+      "post_care": {
+        "days_1_7": "Gentle hair washing with prescribed solutions",
+        "weeks_2_4": "Avoid strenuous exercise and sweating",
+        "months_1_3": "Hair shedding phase (normal)",
+        "months_3_6": "New hair growth emerges",
+        "months_9_18": "Full density achieved"
+      },
+      "cost_range": "200000-600000",
+      "currency": "INR",
+      "success_rate": "95-98%"
+    },
+
+    {
+      "id": "dhi",
+      "name": "DHI (Direct Hair Implantation)",
+      "category": "Surgical",
+      "description": "Advanced technique using Choi pens for precision implantation without pre-created channels",
+      "technology": "Choi DHI Pens",
+      "procedure_duration": "6-8 hours",
+      "grafts_per_session": "1000-4000",
+      "recovery_time": "5-7 days",
+      "scarring": "Minimal - no linear scar",
+      "permanent": true,
+      "key_features": [
+        "Direct implantation with minimal scalp trauma",
+        "No pre-made recipient sites",
+        "Ideal angle and depth control",
+        "Faster graft placement",
+        "Higher survival rates"
+      ],
+      "advantages_vs_fue": [
+        "Reduced scalp trauma and bleeding",
+        "Faster healing (5-7 days vs 10+ days)",
+        "Higher graft survival rate (95%+)",
+        "More natural-looking results",
+        "Minimal post-operative discomfort"
+      ],
+      "extraction": "3-4 hours",
+      "implantation": "2-3 hours",
+      "can_combine_with": ["PRP therapy"],
+      "cost_range": "300000-800000",
+      "currency": "INR",
+      "success_rate": "97-99%"
+    },
+
+    {
+      "id": "prp_hair",
+      "name": "PRP Therapy for Hair Growth",
+      "category": "Non-Surgical",
+      "description": "Regenerative medicine using concentrated platelets to stimulate natural hair growth",
+      "mechanism": "Platelet-rich plasma injected into scalp to stimulate dormant hair follicles",
+      "growth_factors": [
+        "PDGF (Platelet-Derived Growth Factor)",
+        "VEGF (Vascular Endothelial Growth Factor)",
+        "FGF (Fibroblast Growth Factor)",
+        "IGF-1 (Insulin-like Growth Factor)"
+      ],
+      "treatment_protocol": {
+        "initial_phase": "3 sessions, 1 month apart",
+        "maintenance": "1-2 sessions every 6 months",
+        "session_duration": "15-30 minutes procedure + 30 min analysis"
+      },
+      "ideal_for": [
+        "Early to mid-stage hair loss (Norwood 2-4)",
+        "Androgenetic alopecia",
+        "Telogen effluvium recovery",
+        "Post-transplant healing",
+        "Alopecia areata"
+      ],
+      "results_timeline": {
+        "week_2_4": "Reduced hair shedding",
+        "month_2_3": "Improved thickness and density",
+        "month_3_6": "Visible new hair growth",
+        "month_6_plus": "30-40% improvement in density"
+      },
+      "can_combine_with": ["FUE", "DHI", "Topical treatments", "LLLT"],
+      "cost_per_session": "15000-35000",
+      "package_3_sessions": "40000-90000",
+      "currency": "INR"
+    },
+
+    {
+      "id": "lllt",
+      "name": "Low-Level Laser Therapy (LLLT)",
+      "category": "Non-Surgical",
+      "description": "FDA-approved photobiomodulation to stimulate hair follicle activity",
+      "technology": "650-1000nm wavelength lasers",
+      "mechanism": [
+        "Stimulates ATP production in follicle cells",
+        "Increases blood flow to hair roots",
+        "Extends anagen (growth) phase of hair cycle"
+      ],
+      "treatment_protocol": {
+        "clinic_sessions": "2-3 times per week, 15-20 minutes",
+        "home_device": "3-5 times per week",
+        "minimum_duration": "3-6 months for visible results"
+      },
+      "advantages": [
+        "Non-invasive with zero downtime",
+        "FDA-cleared technology",
+        "No medications or side effects",
+        "Can combine with other treatments",
+        "Portable home devices available",
+        "Effective for all hair types"
+      ],
+      "clinical_results": "20-35% improvement in hair density, visible growth in 3-4 months",
+      "best_for": "Early-stage hair loss, both male and female pattern baldness",
+      "clinic_cost_monthly": "8000-15000",
+      "home_device_cost": "50000-150000",
+      "currency": "INR"
+    },
+
+    {
+      "id": "medical_hair_loss",
+      "name": "Medical Hair Loss Management",
+      "category": "Medical",
+      "description": "FDA-approved medications and formulations for pattern hair loss",
+      "topical_solutions": [
+        {
+          "name": "Minoxidil 2-5%",
+          "mechanism": "Extends anagen phase, increases hair thickness",
+          "application": "Topical, twice daily"
+        },
+        {
+          "name": "Finasteride cream",
+          "mechanism": "DHT-blocking for direct scalp application",
+          "application": "Topical, daily"
+        },
+        {
+          "name": "Combination topicals",
+          "components": "Minoxidil + tretinoin + azelaic acid",
+          "mechanism": "Enhanced absorption and synergistic effect"
+        },
+        {
+          "name": "Compounded solutions",
+          "description": "Custom formulations based on individual needs"
+        }
+      ],
+      "oral_medications": [
+        {
+          "name": "Finasteride (Propecia)",
+          "mechanism": "5-alpha reductase inhibitor",
+          "effect": "Reduces scalp DHT by 70%",
+          "dosage": "1mg daily"
+        },
+        {
+          "name": "Dutasteride (Avodart)",
+          "mechanism": "Dual 5-alpha reductase inhibitor",
+          "effect": "More potent than finasteride"
+        },
+        {
+          "name": "Spironolactone",
+          "mechanism": "Androgen antagonist",
+          "use": "Female pattern hair loss"
+        },
+        {
+          "name": "Low-dose oral minoxidil",
+          "status": "Emerging treatment for resistant cases"
+        }
+      ],
+      "supplements": [
+        "Biotin, zinc, iron",
+        "Vitamin D optimization",
+        "DHT-blocking botanicals (saw palmetto, pygeum)",
+        "Collagen precursors",
+        "Anti-inflammatory compounds"
+      ],
+      "results_timeline": {
+        "month_1_3": "Hair shedding stabilization",
+        "month_3_6": "Reduced daily hair loss",
+        "month_6_12": "New hair growth visible",
+        "month_12_plus": "20-35% increase in density"
+      },
+      "cost": {
+        "topical_monthly": "3000-8000",
+        "oral_monthly": "2000-6000",
+        "combined_protocol": "8000-15000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "scalp_treatment",
+      "name": "Advanced Scalp Treatments",
+      "category": "Medical",
+      "description": "Specialized treatments for scalp conditions, infections, and follicle health",
+      "conditions_treated": [
+        "Androgenetic Alopecia (AGA)",
+        "Alopecia Areata",
+        "Telogen Effluvium",
+        "Scarring Alopecia",
+        "Seborrheic Dermatitis",
+        "Psoriasis of Scalp",
+        "Folliculitis"
+      ],
+      "diagnostic_services": [
+        "Trichoscopy: Microscopic examination of hair and follicles",
+        "Pull test: Assess hair shedding rate",
+        "Blood panel: Iron, ferritin, B12, thyroid, DHT levels",
+        "Scalp biopsy: For suspected scarring alopecia",
+        "Genetic testing: Identify genetic predisposition"
+      ],
+      "treatment_modalities": [
+        "Steroid injections: For alopecia areata",
+        "Medicated shampoos: Antifungal, antibacterial, keratolytic",
+        "Scalp peels: Chemical exfoliation for buildup",
+        "Therapeutic massage: Increase blood flow",
+        "Personalized scalp care routine: Custom products"
+      ],
+      "consultation_cost": "5000",
+      "treatment_package": "15000-45000",
+      "currency": "INR"
+    }
+  ],
+
+  "skin_services": [
+    {
+      "id": "laser_resurfacing",
+      "name": "Laser Skin Resurfacing & Rejuvenation",
+      "category": "Cosmetic",
+      "description": "Advanced laser technologies for deep skin renewal and anti-aging",
+      "laser_systems": [
+        {
+          "name": "Fraxel Dual (1550nm & 1927nm)",
+          "use": "Fine lines, scars, pigmentation",
+          "type": "Fractional"
+        },
+        {
+          "name": "CO2 Fractional Laser",
+          "use": "Deep wrinkles, severe scarring",
+          "power": "Most powerful resurfacing"
+        },
+        {
+          "name": "Erbium Laser",
+          "use": "Gentler alternative",
+          "benefit": "Faster recovery"
+        },
+        {
+          "name": "Laser Genesis",
+          "use": "Rosacea, overall rejuvenation",
+          "type": "Non-ablative"
+        },
+        {
+          "name": "Pico Laser (PicoWay)",
+          "use": "Pigmentation, tattoo removal",
+          "technology": "Ultra-short pulses"
+        }
+      ],
+      "conditions_treated": [
+        "Fine lines and wrinkles",
+        "Acne scars (atrophic, boxcar, rolling, ice pick)",
+        "Surgical and trauma scars",
+        "Sun damage and age spots",
+        "Melasma and hyperpigmentation",
+        "Uneven texture and pores",
+        "Stretch marks"
+      ],
+      "recovery_by_type": {
+        "ablative": "5-7 days downtime, 2-3 weeks redness",
+        "fractional": "3-5 days downtime, 1-2 weeks redness",
+        "non_ablative": "No downtime, minimal redness"
+      },
+      "sessions_needed": "3-5 for optimal results",
+      "results": {
+        "fine_lines": "50-70% improvement",
+        "acne_scars": "60-80% improvement",
+        "pigmentation": "70-90% improvement",
+        "improvement_period": "Continues for 6-12 months"
+      },
+      "results_duration": "3-5 years with sun protection",
+      "cost_single_session": "25000-75000",
+      "cost_package_3_5": "70000-300000",
+      "currency": "INR"
+    },
+
+    {
+      "id": "laser_hair_removal",
+      "name": "Laser Hair Removal",
+      "category": "Cosmetic",
+      "description": "Permanent reduction of unwanted hair with advanced laser technology",
+      "mechanism": [
+        "Laser emits concentrated light at specific wavelengths",
+        "Melanin in hair absorbs the light energy",
+        "Heat destroys follicle matrix and papilla",
+        "Hair ejected from follicle over 1-2 weeks",
+        "Multiple treatments needed (aligned with hair cycles)"
+      ],
+      "laser_systems": [
+        {
+          "name": "Candela GentleMax Pro Plus",
+          "wavelength": "755nm alexandrite",
+          "best_for": "Fair to olive skin"
+        },
+        {
+          "name": "Nd:YAG Laser",
+          "wavelength": "1064nm",
+          "best_for": "All skin types including dark skin"
+        },
+        {
+          "name": "Diode Laser",
+          "wavelength": "808nm",
+          "best_for": "Most skin types"
+        },
+        {
+          "name": "IPL (Intense Pulsed Light)",
+          "type": "Broad spectrum",
+          "best_for": "Light to medium skin"
+        }
+      ],
+      "treatment_areas": [
+        "Face: upper lip, cheeks, chin, sideburns",
+        "Body: arms, legs, back, chest",
+        "Intimate: bikini, Brazilian, full genital",
+        "Other: underarms, hands, feet, shoulders"
+      ],
+      "session_protocol": {
+        "sessions_needed": "6-8 for 85-95% reduction",
+        "spacing": "4-6 weeks apart",
+        "session_duration": "15-60 minutes depending on area",
+        "comfort": "Cooling system for minimal pain"
+      },
+      "results_progression": {
+        "after_1_session": "10-15% reduction",
+        "after_3_sessions": "40-50% reduction, visible smoothness",
+        "after_6_sessions": "85-90% reduction, very smooth",
+        "maintenance": "1-2 sessions yearly"
+      },
+      "regrowth_quality": "Lighter, finer, slower than original",
+      "cost_small_area": "8000-15000",
+      "cost_medium_area": "20000-40000",
+      "cost_large_area": "60000-100000",
+      "package_discount": "25-35% savings on 6-8 sessions",
+      "currency": "INR"
+    },
+
+    {
+      "id": "acne_treatment",
+      "name": "Comprehensive Acne Treatment",
+      "category": "Medical",
+      "description": "Advanced protocols for active acne, cystic acne, and acne scars",
+      "acne_types": [
+        "Comedonal: Whiteheads and blackheads",
+        "Inflammatory: Papules and pustules",
+        "Cystic/Nodular: Deep, painful, scarring",
+        "Hormonal: Jaw, chin area, triggered by hormones",
+        "Fungal: Caused by malassezia yeast",
+        "Post-procedure/Steroid-induced"
+      ],
+      "treatment_modalities": [
+        "Topical: Retinoids, BPO, salicylic acid, azelaic acid, dapsone",
+        "Oral: Antibiotics, hormonal therapy, Accutane",
+        "Blue Light Therapy: Kills P. acnes bacteria",
+        "Chemical Peels: Salicylic, glycolic, TCA",
+        "Extractive Facials: Professional extraction"
+      ],
+      "treatment_examples": [
+        {
+          "severity": "Mild-Moderate",
+          "protocol": "Topical retinoid + BPO + weekly salicylic peel",
+          "duration": "8 weeks"
+        },
+        {
+          "severity": "Moderate-Severe",
+          "protocol": "Oral doxycycline + topical retinoid + monthly peels",
+          "duration": "12-16 weeks"
+        },
+        {
+          "severity": "Hormonal (Female)",
+          "protocol": "Spironolactone + OCP + topical retinoid + IPL/laser",
+          "duration": "8-12 weeks"
+        },
+        {
+          "severity": "Cystic",
+          "protocol": "Oral Accutane + dermatologist monitoring",
+          "duration": "16-20 weeks"
+        }
+      ],
+      "scar_treatment": [
+        "Laser resurfacing (Fraxel, CO2)",
+        "Microneedling for rolling scars",
+        "Chemical peels for superficial scarring",
+        "Subcision for deep atrophic scars",
+        "Dermal fillers for temporary filling"
+      ],
+      "cost": {
+        "consultation": "5000",
+        "monthly_protocol": "10000-35000",
+        "scar_treatment": "40000-200000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "ipl_photofacial",
+      "name": "IPL Photofacial & Intense Pulsed Light",
+      "category": "Cosmetic",
+      "description": "Multi-purpose light therapy for complexion improvement and skin toning",
+      "treats": [
+        "Sun spots, freckles, age spots",
+        "Rosacea and facial redness",
+        "Spider veins and small vascular lesions",
+        "Diffuse redness and uneven tone",
+        "Texture improvement and pore refinement",
+        "Mild melasma"
+      ],
+      "sessions": {
+        "number": "4-6 sessions for optimal results",
+        "frequency": "3-4 weeks apart",
+        "duration": "20-30 minutes",
+        "discomfort": "Mild warmth, like rubber band snaps",
+        "downtime": "None - can apply makeup immediately"
+      },
+      "results": {
+        "sun_spots": "50-70% fade",
+        "rosacea": "40-60% redness reduction",
+        "overall_tone": "More even",
+        "fine_lines": "Slightly improved",
+        "improvement_period": "3-6 months continued improvement"
+      },
+      "cost_single": "12000-25000",
+      "cost_package_4_6": "40000-120000",
+      "currency": "INR"
+    },
+
+    {
+      "id": "chemical_peels",
+      "name": "Chemical Peels & Exfoliation",
+      "category": "Cosmetic",
+      "description": "Controlled chemical exfoliation for skin renewal and texture improvement",
+      "peel_types": [
+        {
+          "strength": "Superficial",
+          "agents": "Glycolic, lactic acid",
+          "depth": "Light exfoliation"
+        },
+        {
+          "strength": "Medium",
+          "agents": "Salicylic, pyruvic acid, 15-30% TCA",
+          "depth": "Moderate penetration"
+        },
+        {
+          "strength": "Deep",
+          "agents": "50%+ TCA, phenol",
+          "depth": "Significant regeneration"
+        },
+        {
+          "name": "Jessner's Peel",
+          "composition": "Lactic, salicylic, resorcinol"
+        }
+      ],
+      "improvements": [
+        "Fine lines and wrinkles",
+        "Acne and breakouts",
+        "Acne scarring and texture",
+        "Sun damage and spots",
+        "Melasma and hyperpigmentation",
+        "Dull, congested skin",
+        "Large pores"
+      ],
+      "protocol": {
+        "superficial": "Weekly or every 2 weeks, 8-12 sessions",
+        "medium": "Every 3-4 weeks, 3-6 sessions",
+        "deep": "Usually 1 treatment, repeat after 12+ months"
+      },
+      "downtime": {
+        "superficial": "No downtime",
+        "medium": "3-5 days redness and peeling",
+        "deep": "1-2 weeks significant peeling"
+      },
+      "cost": {
+        "superficial": "5000-12000",
+        "medium": "15000-35000",
+        "deep": "40000-100000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "microneedling",
+      "name": "Microneedling & Collagen Induction",
+      "category": "Cosmetic",
+      "description": "Controlled micro-injuries to stimulate natural collagen production",
+      "mechanism": [
+        "Fine needles create micro-perforations",
+        "Triggers body's natural healing response",
+        "Increases collagen and elastin production",
+        "Improves blood flow and skin texture",
+        "Can combine with serums (HA, growth factors, PRP)"
+      ],
+      "treats": [
+        "Acne scars (atrophic, rolling, boxcar)",
+        "Traumatic/surgical scars",
+        "Fine lines and wrinkles",
+        "Stretch marks",
+        "Uneven texture and pores",
+        "Hyperpigmentation",
+        "Overall rejuvenation"
+      ],
+      "protocol": {
+        "needle_depth": "0.5-2.5mm depending on condition",
+        "sessions": "3-6 sessions for visible improvement",
+        "frequency": "4-6 weeks apart",
+        "duration": "30-60 minutes including numbing",
+        "downtime": "24-48 hours mild redness"
+      },
+      "enhancements": [
+        "RF Microneedling (Vivace): Radiofrequency for aggressive remodeling",
+        "PRP Microneedling: With platelet-rich plasma",
+        "Serumized: Infused with vitamin C, HA, growth factors"
+      ],
+      "results": {
+        "visible_improvement": "4-6 weeks",
+        "continued_improvement": "Up to 6 months",
+        "acne_scars": "30-50% improvement",
+        "fine_lines": "25-40% improvement",
+        "duration": "6-12 months, maintenance recommended"
+      },
+      "cost": {
+        "standard": "10000-25000",
+        "rf_microneedling": "25000-50000",
+        "package_3_6": "50000-200000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "injectables",
+      "name": "Botox, Fillers & Injectable Treatments",
+      "category": "Cosmetic",
+      "description": "Non-surgical facial rejuvenation with FDA-approved treatments",
+      "botox_info": {
+        "products": ["Botox", "Dysport", "Xeomin"],
+        "mechanism": "Relaxes facial muscles causing dynamic wrinkles",
+        "areas": [
+          "Forehead lines",
+          "Crow's feet",
+          "Glabellar lines (between brows)",
+          "Bunny lines"
+        ],
+        "results_onset": "3-7 days appearance, full effect by 2 weeks",
+        "duration": "3-4 months",
+        "cost_per_area": "8000-15000"
+      },
+      "fillers": {
+        "types": [
+          {
+            "name": "Hyaluronic Acid",
+            "products": ["Juvederm", "Restylane", "Belotero"],
+            "benefit": "Reversible, hydrating"
+          },
+          {
+            "name": "Calcium Hydroxylapatite",
+            "product": "Radiesse",
+            "benefit": "Longer-lasting, stimulates collagen"
+          },
+          {
+            "name": "Poly-L-Lactic Acid",
+            "product": "Sculptra",
+            "benefit": "Gradual collagen, lasts 2+ years"
+          },
+          {
+            "name": "Fat Transfer",
+            "type": "Autologous",
+            "benefit": "Natural, long-lasting"
+          }
+        ],
+        "areas": [
+          "Nasolabial folds",
+          "Marionette lines",
+          "Lips (volume, definition)",
+          "Cheeks (volume, lifting)",
+          "Under-eye (tear trough)",
+          "Jawline definition",
+          "Chin augmentation"
+        ]
+      },
+      "procedure": {
+        "consultation": "Facial assessment, customized plan",
+        "duration": "30-60 minutes",
+        "numbing": "Topical anesthetic + nerve blocks",
+        "results": "Immediate, full after swelling subsides (3-7 days)",
+        "downtime": "Minimal"
+      },
+      "cost": {
+        "botox_per_area": "8000-15000",
+        "fillers_per_syringe": "20000-45000",
+        "combination": "40000-150000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "rosacea_vascular",
+      "name": "Rosacea & Vascular Lesion Treatment",
+      "category": "Medical",
+      "description": "Specialized treatment for persistent facial redness and vascular conditions",
+      "conditions": [
+        "Rosacea: Chronic flushing, persistent redness, visible vessels",
+        "Spider Veins: Small dilated facial capillaries",
+        "Port-Wine Stains: Congenital vascular birthmarks",
+        "Hemangiomas: Benign blood vessel growths",
+        "Broken Capillaries: From trauma, sun, or genetics"
+      ],
+      "treatment_lasers": [
+        {
+          "name": "KTP Laser (532nm)",
+          "target": "Oxyhemoglobin in vessels",
+          "use": "Facial redness"
+        },
+        {
+          "name": "Nd:YAG Laser (1064nm)",
+          "depth": "Deeper penetration",
+          "use": "Larger vessels"
+        },
+        {
+          "name": "IPL",
+          "spectrum": "Broad",
+          "use": "Diffuse redness"
+        },
+        {
+          "name": "Laser Genesis",
+          "type": "Non-invasive",
+          "use": "Early rosacea"
+        }
+      ],
+      "rosacea_management": [
+        "Topical: Metronidazole, azelaic acid, sulfacetamide-sulfur",
+        "Oral: Low-dose doxycycline (anti-inflammatory)",
+        "Laser: 2-4 sessions, 4-6 weeks apart",
+        "Skincare: Gentle cleanser, moisturizer, SPF 30+",
+        "Trigger avoidance: Heat, alcohol, spicy foods, stress"
+      ],
+      "results": {
+        "facial_redness": "40-60% reduction",
+        "visible_vessels": "Significant fade/disappearance",
+        "flushing": "Reduced episodes",
+        "improvement_period": "3-6 months"
+      },
+      "cost": {
+        "laser_session": "20000-40000",
+        "series_2_4": "50000-150000",
+        "medical_management": "5000-15000"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "psoriasis_eczema",
+      "name": "Psoriasis & Eczema Treatment",
+      "category": "Medical",
+      "description": "Comprehensive dermatological care for inflammatory skin conditions",
+      "psoriasis_types": [
+        "Plaque: Most common (85%)",
+        "Guttate: Small teardrop-shaped",
+        "Inverse: Affects skin folds",
+        "Erythrodermic: Severe, widespread",
+        "Nail: Pitting, discoloration"
+      ],
+      "psoriasis_treatments": [
+        "Topical: Corticosteroids, calcineurin inhibitors, vitamin D analogs",
+        "Systemic: Methotrexate, acitretin, cyclosporine",
+        "Biologics: TNF-α inhibitors, IL-23/IL-17 inhibitors",
+        "Phototherapy: UVB, PUVA, excimer laser (308nm)",
+        "Combination: Multiple modalities"
+      ],
+      "eczema_treatment": [
+        "Topical steroids: Low to high potency",
+        "Calcineurin inhibitors: Steroid-sparing",
+        "Emollients: Applied immediately after bathing",
+        "Biologics: Dupilumab (Dupixent)",
+        "JAK inhibitors: Topical and oral"
+      ],
+      "management_plan": [
+        "Detailed skin examination",
+        "Patch testing if contact dermatitis suspected",
+        "Customized treatment plan",
+        "Monthly or quarterly follow-ups",
+        "Therapy adjustments based on response",
+        "Lifestyle counseling (stress, triggers, skincare)"
+      ],
+      "cost": {
+        "consultation": "5000",
+        "topical_therapy": "8000-20000",
+        "phototherapy_session": "3000-8000",
+        "systemic_therapy": "30000-250000+"
+      },
+      "currency": "INR"
+    },
+
+    {
+      "id": "skin_cancer",
+      "name": "Skin Cancer Screening & Treatment",
+      "category": "Medical",
+      "description": "Early detection and advanced treatment of melanoma and skin cancers",
+      "screening_services": [
+        "Full-body examination: Head-to-toe assessment",
+        "Dermoscopy: Magnified examination",
+        "Digital imaging: High-resolution photography",
+        "Risk assessment: History evaluation",
+        "Annual monitoring: Recommended for high-risk"
+      ],
+      "cancer_types": [
+        {
+          "name": "Basal Cell Carcinoma (BCC)",
+          "prevalence": "80%",
+          "growth": "Slow",
+          "metastasis": "Rarely"
+        },
+        {
+          "name": "Squamous Cell Carcinoma (SCC)",
+          "prevalence": "15%",
+          "growth": "Moderate",
+          "metastasis": "More aggressive than BCC"
+        },
+        {
+          "name": "Melanoma",
+          "prevalence": "5%",
+          "growth": "Fast",
+          "metastasis": "Can be rapid if not caught early"
+        },
+        {
+          "name": "Merkel Cell Carcinoma",
+          "prevalence": "Rare",
+          "type": "Neuroendocrine",
+          "aggressiveness": "Very aggressive"
+        }
+      ],
+      "treatment_options": [
+        "Mohs Micrographic Surgery: 98-99% cure rate, tissue-sparing",
+        "Surgical excision: Wide margins",
+        "Cryotherapy: Liquid nitrogen for small lesions",
+        "Topical medications: 5-FU or imiquimod",
+        "Photodynamic therapy: Light-activated chemotherapy",
+        "Systemic therapy: Targeted and immunotherapy"
+      ],
+      "prevention": [
+        "Sunscreen: Daily SPF 30+ (SPF 50+ for high-risk)",
+        "Sun avoidance: Limit 10 AM - 4 PM",
+        "Protective clothing: Long sleeves, hats, sunglasses",
+        "No tanning beds: Increases melanoma risk by 75%",
+        "Regular self-checks: ABCDE rule"
+      ],
+      "cost": {
+        "screening": "8000-15000",
+        "mohs_surgery_per_stage": "30000-60000",
+        "excision": "20000-50000",
+        "systemic_therapy": "100000+"
+      },
+      "currency": "INR"
+    }
+  ],
+
+  "team": [
+    {
+      "id": "dr_sharma",
+      "name": "Dr. Arjun Sharma",
+      "title": "Board-Certified Dermatologist & Trichologist",
+      "credentials": "MD Dermatology, Fellowship Hair Transplantation",
+      "experience_years": 16,
+      "specializations": [
+        "Hair Transplantation",
+        "FUE/DHI",
+        "Scalp Disorders",
+        "Hair Restoration"
+      ],
+      "achievements": "8,000+ successful hair restoration procedures"
+    },
+    {
+      "id": "dr_patel",
+      "name": "Dr. Priya Patel",
+      "title": "Cosmetic & Laser Dermatologist",
+      "credentials": "MD Dermatology, Fellowship Laser Surgery",
+      "experience_years": 14,
+      "specializations": [
+        "Laser Treatments",
+        "Skin Rejuvenation",
+        "Chemical Peels",
+        "Anti-aging Treatments"
+      ],
+      "certifications": "All major laser systems and injectables"
+    },
+    {
+      "id": "dr_kumar",
+      "name": "Dr. Rajesh Kumar",
+      "title": "Medical Dermatologist & Mohs Surgeon",
+      "credentials": "MD Dermatology, Mohs Fellowship, Board-Certified",
+      "experience_years": 18,
+      "specializations": [
+        "Skin Cancer",
+        "Mohs Surgery",
+        "Dermatologic Surgery"
+      ],
+      "achievements": "Published researcher in dermatologic oncology"
+    },
+    {
+      "id": "dr_gupta",
+      "name": "Dr. Sophia Gupta",
+      "title": "Aesthetic & Reconstructive Dermatologist",
+      "credentials": "MD Dermatology, Fellowship Aesthetic Dermatology",
+      "experience_years": 12,
+      "specializations": [
+        "Botox & Fillers",
+        "Microneedling",
+        "Scar Treatment",
+        "Aesthetic Procedures"
+      ],
+      "known_for": "Natural-looking results and patient satisfaction"
+    }
+  ],
+
+  "facilities": [
+    {
+      "name": "ARTAS Robotic System",
+      "type": "Hair Transplant Technology",
+      "feature": "Precision hair follicle extraction with AI-guided technology"
+    },
+    {
+      "name": "Fraxel & CO2 Lasers",
+      "type": "Skin Resurfacing",
+      "feature": "Advanced fractional laser systems"
+    },
+    {
+      "name": "Candela GentleMax Pro",
+      "type": "Hair Removal Laser",
+      "feature": "Dual-wavelength, all skin types"
+    },
+    {
+      "name": "Digital Dermoscopy",
+      "type": "Diagnostic",
+      "feature": "High-resolution skin imaging"
+    },
+    {
+      "name": "PRP Lab",
+      "type": "In-house Processing",
+      "feature": "Platelet-rich plasma for immediate treatment"
+    },
+    {
+      "name": "Sterile Operating Theaters",
+      "type": "Surgical Suite",
+      "feature": "ISO-certified with infection control"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What is the difference between FUE and DHI hair transplants?",
+      "answer": "FUE (Follicular Unit Extraction) uses robotic assistance to extract individual follicles, while DHI (Direct Hair Implantation) uses specialized Choi pens for direct implantation without pre-created channels. DHI has faster recovery (5-7 days vs 10+ days) and slightly higher graft survival rates, but both are permanent solutions."
+    },
+    {
+      "question": "How long before I see results from a hair transplant?",
+      "answer": "Hair typically sheds 1-3 months post-procedure (normal shedding phase). New growth begins at 3-4 months, becomes visible at 6-9 months, and full density is achieved at 12-18 months."
+    },
+    {
+      "question": "Is PRP therapy effective for hair loss?",
+      "answer": "PRP therapy is most effective for early to mid-stage hair loss. Results show 30-40% improvement in density on average, but effectiveness varies by individual. It's often combined with other treatments like medications or laser therapy."
+    },
+    {
+      "question": "How many laser hair removal sessions are needed?",
+      "answer": "Typically 6-8 sessions spaced 4-6 weeks apart are needed for 85-95% hair reduction. The exact number depends on hair type, skin type, and the treated area. Maintenance sessions (1-2 yearly) help maintain results."
+    },
+    {
+      "question": "What is the recovery time for laser skin resurfacing?",
+      "answer": "Recovery depends on laser type: Ablative lasers (CO2, Erbium) have 5-7 days downtime, fractional lasers have 3-5 days, and non-ablative lasers have minimal to no downtime. Full results appear over 3-6 months."
+    },
+    {
+      "question": "Are the results from acne laser treatment permanent?",
+      "answer": "Laser treatment can significantly improve acne (50-70% reduction) and acne scars, but may require maintenance sessions. Results depend on ongoing skincare and sun protection."
+    },
+    {
+      "question": "Can I combine hair and skin treatments?",
+      "answer": "Yes, many treatments can be combined. For example, PRP can be used with hair transplants or alongside skin treatments. However, timing and healing periods must be carefully planned by your dermatologist."
+    },
+    {
+      "question": "What is the cost of a hair transplant?",
+      "answer": "FUE costs ₹2,00,000-₹6,00,000+ depending on graft count and complexity. DHI is more expensive (₹3,00,000-₹8,00,000+) due to its advanced technique. Costs typically include consultation, surgery, and post-operative care."
+    }
+  ]
+}
